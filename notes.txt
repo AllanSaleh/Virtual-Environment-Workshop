@@ -1,0 +1,32 @@
+Without Virtual Environment:
+- Dependency conflict
+- Cannot install different versions of modules
+- Hard to share project
+- "Works on my machine" problem occur
+
+With them:
+- Isolated project
+- Reproduce setups
+- Easier teamwork
+- Cleaner development workflow
+
+1. Create a Virtual Environment:
+python -m venv venv
+
+2. Activate the Virtual Environment
+Mac/ Linux:
+source venv/bin/activate
+
+Windows:
+venv\Scripts\activate
+
+3. Install packages
+
+pip install package_name
+
+example: pip install requests
+
+example: pip install requests sqlalchemy
+
+4. Check installed packages (to verify everything is installed)
+pip list

@@ -30,3 +30,9 @@ example: pip install requests sqlalchemy
 
 4. Check installed packages (to verify everything is installed)
 pip list
+
+5. Save installed packages to a file
+pip freeze > requirements.txt
+
+This file is the recipe for recreating our environment
+

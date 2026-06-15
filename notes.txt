@@ -36,3 +36,6 @@ pip freeze > requirements.txt
 
 This file is the recipe for recreating our environment
 
+6. To recreate the setup with all packages installed to the virtual environment. Install requirements from a file.
+
+pip install -r requirements.txt
